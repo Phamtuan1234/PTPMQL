@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PTPMQL\\FirstWebMVC\\FirstWebMVC.csproj": {}
+    "C:\\Users\\HP\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "E:\\PTPMQL\\FirstWebMVC\\FirstWebMVC.csproj": {
+    "C:\\Users\\HP\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PTPMQL\\FirstWebMVC\\FirstWebMVC.csproj",
-        "projectName": "FirstWebMVC",
-        "projectPath": "E:\\PTPMQL\\FirstWebMVC\\FirstWebMVC.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\MvcMovie\\MvcMovie.csproj",
+        "projectName": "MvcMovie",
+        "projectPath": "C:\\Users\\HP\\MvcMovie\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "E:\\PTPMQL\\FirstWebMVC\\obj\\",
+        "outputPath": "C:\\Users\\HP\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
