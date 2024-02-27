@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PTPMQL\\NewApp\\NewApp.csproj": {}
+    "e:\\PTPMQL\\NewApp\\NewApp.csproj": {}
   },
   "projects": {
-    "E:\\PTPMQL\\NewApp\\NewApp.csproj": {
+    "e:\\PTPMQL\\NewApp\\NewApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PTPMQL\\NewApp\\NewApp.csproj",
+        "projectUniqueName": "e:\\PTPMQL\\NewApp\\NewApp.csproj",
         "projectName": "NewApp",
-        "projectPath": "E:\\PTPMQL\\NewApp\\NewApp.csproj",
+        "projectPath": "e:\\PTPMQL\\NewApp\\NewApp.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "E:\\PTPMQL\\NewApp\\obj\\",
+        "outputPath": "e:\\PTPMQL\\NewApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
