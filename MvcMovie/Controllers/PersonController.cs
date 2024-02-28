@@ -172,7 +172,7 @@ namespace MvcMovie.Controllers
 
         public IActionResult Download(){
             //Name the file when downloading
-            var fileName = "NguyenKhachLinh15/02" + ".xlsx";
+            var fileName = "PhamMinhTuan11/01" + ".xlsx";
             using(ExcelPackage excelPackage = new ExcelPackage()){
                 //Create the WorkSheet
                 ExcelWorksheet worksheet = excelPackage.Workbook.Worksheets.Add("Sheet 1");
@@ -193,16 +193,17 @@ namespace MvcMovie.Controllers
 
 
 
-        // public IActionResult Index(){
-        //         return View();
-        // }
+        public IActionResult Index(){
+           return View();
+        }
 
-        // [HttpPost]
-        // public IActionResult Index(Person ps)
-        // {
-        //     string strOutput = "Xin chào: " + ps.PersonID + " - " + ps.FullName + " - " + ps.Address;
-        //     ViewBag.Message = strOutput;
-        //     return View();
-        // }
+        [HttpPost]
+        public IActionResult Index(Person ps)
+        {
+            string strOutput = "Xin chào: " + ps.PersonID + " - " + ps.FullName + " - " + ps.Address;
+            ViewBag.Message = strOutput;
+            return View();
+        }
+
     }
  }
