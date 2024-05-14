@@ -1,22 +1,23 @@
-@model IEnumerable<MvcMovie.Models.Person>
+@model IEnumerable<MvcMovie.Models.Employee>
 
 @{
     ViewData["Title"] = "Index";
 }
 
 <h1>Index</h1>
-<form asp-controller="Person" asp-action="Index">
-    <p>
-        <input type="text" name="SearchString" value="@ViewBag.key" placeholder="Nhập mã sinh viên cần tìm kiếm" />
-        <input type="submit" value="Tìm kiếm" />
-    </p>
-</form>
+
 <p>
     <a asp-action="Create">Create New</a>
 </p>
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.FullName)
             </th>
@@ -29,6 +30,12 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.FullName)
             </td>

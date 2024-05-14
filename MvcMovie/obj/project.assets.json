@@ -1600,11 +1600,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PTPMQL\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+      "projectUniqueName": "E:\\PTPMQL\\MvcMovie\\MvcMovie.csproj",
       "projectName": "MvcMovie",
-      "projectPath": "D:\\PTPMQL\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+      "projectPath": "E:\\PTPMQL\\MvcMovie\\MvcMovie.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\PTPMQL\\MvcMovie\\MvcMovie\\obj\\",
+      "outputPath": "E:\\PTPMQL\\MvcMovie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
