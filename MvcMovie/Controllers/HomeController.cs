@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using MvcMovie.Models;
@@ -17,9 +18,10 @@ public class HomeController : Controller
     {
         return View();
     }
+    [HttpPost]
     public IActionResult Index(string FullName, string Address)
     {
-        string strOutput = "Full Name: " + FullName + " Address: " + Address;
+        string strOutput = "Xin chao" + FullName + "den tu" + Address;
         ViewBag.Message = strOutput;
         return View();
     }

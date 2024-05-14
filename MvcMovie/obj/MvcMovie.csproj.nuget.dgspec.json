@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PTPMQL\\MvcMovie\\MvcMovie.csproj": {}
+    "D:\\PTPMQL\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {}
   },
   "projects": {
-    "E:\\PTPMQL\\MvcMovie\\MvcMovie.csproj": {
+    "D:\\PTPMQL\\MvcMovie\\MvcMovie\\MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PTPMQL\\MvcMovie\\MvcMovie.csproj",
+        "projectUniqueName": "D:\\PTPMQL\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "E:\\PTPMQL\\MvcMovie\\MvcMovie.csproj",
+        "projectPath": "D:\\PTPMQL\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "E:\\PTPMQL\\MvcMovie\\obj\\",
+        "outputPath": "D:\\PTPMQL\\MvcMovie\\MvcMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
